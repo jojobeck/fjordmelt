@@ -1,0 +1,1 @@
+this is the fjordmelt tool and a tool to create a Temperature profile as in the glacier model, but can be used in python for direct investigations. 
