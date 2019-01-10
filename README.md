@@ -8,10 +8,11 @@ Written in Fortran but wrapped for python,
 it  can be used in python for direct investigations.
 when dowloaded in to (e.g. "/home/user/gitrepos/fjord/"")
 compile with ./build.sh
+
 then can be used interactivley in ipython:
 sys.path.insert(0, "/home/user/gitrepos/fjord/")
 import jenkinslib as jenk
-m, y = jjj.jenkinslib.melting_process(X,Z,ta,sa,E0,sina,y0,len(X),'cone')
+m, y = jenk.jenkinslib.melting_process(X,Z,ta,sa,E0,sina,y0,len(X),'cone')
 with:
 
 X (1d array) - path under glacier tongue, X=-Z for veritcal cliff
